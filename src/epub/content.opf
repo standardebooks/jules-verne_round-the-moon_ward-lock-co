@@ -30,58 +30,55 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Round the Moon</dc:title>
 		<meta property="file-as" refines="#title">Round the Moon</meta>
-		<dc:subject id="subject-1">Science fiction</dc:subject>
-		<dc:subject id="subject-2">Space flight to the moon -- Fiction</dc:subject>
-		<dc:subject id="subject-3">Moon -- Fiction</dc:subject>
-		<dc:subject id="subject-4">Space ships -- Fiction</dc:subject>
-		<dc:subject id="subject-5">Manned space flight -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Science fiction, French - Translations into English</dc:subject>
+		<dc:subject id="subject-2">Moon -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Space ships -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85118629</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
-		<meta property="term" refines="#subject-3">sh2008107821</meta>
+		<meta property="term" refines="#subject-2">sh2008107821</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
-		<meta property="term" refines="#subject-4">sh2008111361</meta>
-		<meta property="authority" refines="#subject-5">LCSH</meta>
-		<meta property="term" refines="#subject-5">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-3">sh2008111361</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta id="collection" property="belongs-to-collection">Voyages Extraordinaires</meta>
+		<meta property="collection-type" refines="#collection">series</meta>
+		<meta property="group-position" refines="#collection">7</meta>
+		<dc:description id="description">The giant rocket Columbiad is traveling to the Moon with three passengers and a dog on board. We follow the misadventures of this audacious journey. How will it end?</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;This sequel to &lt;p&gt;&lt;i From the Earth to the Moon&lt;/i&gt; narrates the eventful journey to the Moon of three passengers-Impey Barbicane, president of the Gun Club, Captain Nicholl, Barbicane’s rival and then collaborator, and Michel Ardan, a French scientist-onboard of a hollow cannonball. The projectile orbits the Moon but fails to land, propelling them instead toward the Earth.  They are rescued at sea and widely celebrated as the first humans to leave Earth.&lt;/p&gt;p&gt;&lt;i lang="fr"&gt;De la Terre à la Lune&lt;/i&gt; and &lt;i lang="fr"&gt;Autour de la Lune&lt;/i&gt; number 4 and 7, respectively, in the &lt;i lang="fr"&gt;Voyages Extraordinaires&lt;/i&gt; collection, have inspired numerous adaptations, from movies to theme parks to video games.&lt;/p&gt; 
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/12901</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">The present work corresponds to Part II of Project Gutenberg's “The Moon-Voyage,” which includes both “From the Earth to the Moon” and its sequel “Round the Moon.”</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Round_the_moon</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/jules-verne_round-the-moon_ward-lock-co</meta>
 		<dc:creator id="author">Jules Verne</dc:creator>
 		<meta property="file-as" refines="#author">Verne, Jules</meta>
+		<meta property="se:name.person.full-name" refines="#author">Jules Gabriel Verne</meta>
 		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Jules_Verne</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79064013</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Ward, Lock &amp; Co.</dc:contributor>
 		<meta property="file-as" refines="#translator">Co., Ward, Lock &amp;</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#translator">Ward, Lock &amp; Co., Limited</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Ward,_Lock_%26_Co.</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n80036611</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Aert van der Neer</dc:contributor>
+		<meta property="file-as" refines="#artist">van der Neer, Aert</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Aert_van_der_Neer</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n83216250.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Norman Wolcott</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Wolcott, Norman</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Gregory Margo</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Margo, Gregory</meta>
+		<dc:contributor id="producer-1">PGeneviève Ségol</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Ségol, Geneviève</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
