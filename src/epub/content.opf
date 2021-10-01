@@ -43,9 +43,10 @@
 		<meta id="collection" property="belongs-to-collection">Voyages Extraordinaires</meta>
 		<meta property="collection-type" refines="#collection">series</meta>
 		<meta property="group-position" refines="#collection">7</meta>
-		<dc:description id="description">The giant rocket Columbiad is traveling to the Moon with three passengers and a dog on board. We follow the misadventures of this audacious journey. How will it end?</dc:description>
+		<dc:description id="description">The giant rocket Columbiad is traveling to the Moon with three passengers and a dog on board. We follow the misadventures of this audacious journey and wonder how it will end.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;This sequel to &lt;p&gt;&lt;i From the Earth to the Moon&lt;/i&gt; narrates the eventful journey to the Moon of three passengers-Impey Barbicane, president of the Gun Club, Captain Nicholl, Barbicane’s rival and then collaborator, and Michel Ardan, a French scientist-onboard of a hollow cannonball. The projectile orbits the Moon but fails to land, propelling them instead toward the Earth.  They are rescued at sea and widely celebrated as the first humans to leave Earth.&lt;/p&gt;p&gt;&lt;i lang="fr"&gt;De la Terre à la Lune&lt;/i&gt; and &lt;i lang="fr"&gt;Autour de la Lune&lt;/i&gt; number 4 and 7, respectively, in the &lt;i lang="fr"&gt;Voyages Extraordinaires&lt;/i&gt; collection, have inspired numerous adaptations, from movies to theme parks to video games.&lt;/p&gt; 
+			&lt;p&gt;This sequel to &lt;a href="https://standardebooks.org/ebooks/jules-verne/from-the-earth-to-the-moon/ward-lock-co"&gt;&lt;i&gt;From the Earth to the Moon&lt;/i&gt;&lt;/a&gt; narrates the eventful journey to the Moon of three passengers-Impey Barbicane, president of the Gun Club, Captain Nicholl, Barbicane’s rival and then collaborator, and Michel Ardan, a French scientist-onboard of a hollow cannonball. They orbit the Moon, performing geographical observations, but the projectile fails to land, propelling them instead toward the Earth. They are rescued at sea and widely celebrated as the first humans to leave Earth.&lt;/p&gt;
+			&lt;p&gt;&lt;i lang="fr"&gt;De la Terre à la Lune&lt;/i&gt; and &lt;i lang="fr"&gt;Autour de la Lune&lt;/i&gt; number 4 and 7, respectively, in the &lt;i lang="fr"&gt;Voyages Extraordinaires&lt;/i&gt; collection, have inspired numerous adaptations, from movies to theme parks to video games.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/12901</dc:source>
@@ -57,7 +58,6 @@
 		<dc:creator id="author">Jules Verne</dc:creator>
 		<meta property="file-as" refines="#author">Verne, Jules</meta>
 		<meta property="se:name.person.full-name" refines="#author">Jules Gabriel Verne</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Jules_Verne</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79064013</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -70,7 +70,7 @@
 		<dc:contributor id="artist">Aert van der Neer</dc:contributor>
 		<meta property="file-as" refines="#artist">van der Neer, Aert</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Aert_van_der_Neer</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n83216250.html</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n83216250</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Norman Wolcott</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Wolcott, Norman</meta>
