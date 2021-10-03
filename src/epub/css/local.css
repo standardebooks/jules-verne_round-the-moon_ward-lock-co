@@ -17,6 +17,7 @@ body [xml|lang]{
 }
 
 table td:last-child{
+	margin: 1em;
 	text-align: right;
 	font-variant-numeric: tabular-nums;
 }
