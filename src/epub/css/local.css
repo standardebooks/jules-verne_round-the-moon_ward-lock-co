@@ -2,8 +2,7 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
-[epub|type~="z3998:letter"]
-footer{
+[epub|type~="z3998:letter"] footer{
 	margin-top: 1em;
 	text-align: right;
 }

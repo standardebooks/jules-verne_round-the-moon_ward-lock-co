@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-GB">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/jules-verne/round-the-moon/ward-lock-co</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
@@ -48,7 +48,7 @@
 			&lt;p&gt;This sequel to &lt;a href="https://standardebooks.org/ebooks/jules-verne/from-the-earth-to-the-moon/ward-lock-co"&gt;&lt;i&gt;From the Earth to the Moon&lt;/i&gt;&lt;/a&gt; narrates the eventful journey to the Moon of three passengers-Impey Barbicane, president of the Gun Club, Captain Nicholl, Barbicane’s rival and then collaborator, and Michel Ardan, a French scientist-onboard of a hollow cannonball. They orbit the Moon, performing geographical observations, but the projectile fails to land, propelling them instead toward the Earth. They are rescued at sea and widely celebrated as the first humans to leave Earth.&lt;/p&gt;
 			&lt;p&gt;&lt;i lang="fr"&gt;De la Terre à la Lune&lt;/i&gt; and &lt;i lang="fr"&gt;Autour de la Lune&lt;/i&gt; number 4 and 7, respectively, in the &lt;i lang="fr"&gt;Voyages Extraordinaires&lt;/i&gt; collection, have inspired numerous adaptations, from movies to theme parks to video games.&lt;/p&gt;
 		</meta>
-		<dc:language>en-US</dc:language>
+		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/12901</dc:source>
 		<meta property="se:production-notes">The present work corresponds to Part II of Project Gutenberg's “The Moon-Voyage,” which includes both “From the Earth to the Moon” and its sequel “Round the Moon.”</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>

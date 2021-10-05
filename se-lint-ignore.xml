@@ -5,15 +5,5 @@
 			<code>s-023</code>
 			<reason>The conjunction 'to' in the title is correctly not capitalized.</reason>
 		</ignore>
-		<ignore>
-			<code>s-045</code>
-			<reason>P.M. and A.M. are not given names</reason>
-		</ignore>
-	</file>
-	<file path="toc.xhtml">
-		<ignore>
-			<code>s-045</code>
-			<reason>P.M. and A.M. are not given names</reason>
-		</ignore>
 	</file>
 </se-lint-ignore>
