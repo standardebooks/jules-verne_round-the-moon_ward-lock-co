@@ -45,7 +45,7 @@
 		<meta property="group-position" refines="#collection">7</meta>
 		<dc:description id="description">The giant rocket Columbiad travels to the Moon, engaging in discoveries and misadventures along the way.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;This sequel to &lt;a href="https://standardebooks.org/ebooks/jules-verne/from-the-earth-to-the-moon/ward-lock-co"&gt;&lt;i&gt;From the Earth to the Moon&lt;/i&gt;&lt;/a&gt; narrates the eventful journey to the Moon of three passengers-Impey Barbicane, president of the Gun Club, Captain Nicholl, Barbicane’s rival and then collaborator, and Michel Ardan, a French scientist-aboard a hollow cannonball. They orbit the Moon and perform geographical observations, but the projectile fails to land, propelling them instead toward the Earth. They’re rescued at sea and widely celebrated as the first humans to leave Earth.&lt;/p&gt;
+			&lt;p&gt;This sequel to &lt;a href="https://standardebooks.org/ebooks/jules-verne/from-the-earth-to-the-moon/ward-lock-co"&gt;&lt;i&gt;From the Earth to the Moon&lt;/i&gt;&lt;/a&gt; narrates the eventful journey to the Moon of three passengers—Impey Barbicane, president of the Gun Club, Captain Nicholl, Barbicane’s rival and then collaborator, and Michel Ardan, a French scientist—aboard a hollow cannonball. They orbit the Moon and perform geographical observations, but the projectile fails to land, propelling them instead toward the Earth. They’re rescued at sea and widely celebrated as the first humans to leave Earth.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/12901</dc:source>
