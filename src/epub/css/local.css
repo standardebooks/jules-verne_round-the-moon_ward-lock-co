@@ -15,7 +15,11 @@ body [xml|lang]{
 	font-style: italic;
 }
 
-table td:last-child{
+table{
+	margin: 1em auto;
+}
+
+table td:nth-child(5){
 	margin: 1em;
 	text-align: right;
 	font-variant-numeric: tabular-nums;
@@ -23,6 +27,7 @@ table td:last-child{
 
 table td:first-child,
 table td:nth-child(3),
-table td:nth-child(4){
+table td:nth-child(4),
+table td:last-child{
 	text-align: center;
 }
