@@ -20,9 +20,9 @@ table{
 }
 
 table td:nth-child(5){
+	font-variant-numeric: tabular-nums;
 	margin: 1em;
 	text-align: right;
-	font-variant-numeric: tabular-nums;
 }
 
 table td:first-child,
