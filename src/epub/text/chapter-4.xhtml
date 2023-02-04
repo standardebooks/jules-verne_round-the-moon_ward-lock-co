@@ -63,70 +63,157 @@
 			<blockquote>
 				<p>
 					<m:math alttext="1/2⁢(v² - v₀²) = g⁢r⁢{r/x - 1 + m′/m⁢(r/(d - x) - r/(d - r))}">
-						<m:mrow>
-							<m:mfrac>
-								<m:mn>1</m:mn>
-								<m:mn>2</m:mn>
-							</m:mfrac>
-							<m:mo>⁢</m:mo>
-							<m:mo fence="true">(</m:mo>
-							<m:msup>
-								<m:mi>v</m:mi>
-								<m:mn>2</m:mn>
-							</m:msup>
-							<m:mo>−</m:mo>
-							<m:msup>
-								<m:msub>
-									<m:mi>v</m:mi>
-									<m:mn>0</m:mn>
-								</m:msub>
-								<m:mn>2</m:mn>
-							</m:msup>
-							<m:mo fence="true">)</m:mo>
-							<m:mo>=</m:mo>
-							<m:mi>g</m:mi>
-							<m:mo>⁢</m:mo>
-							<m:mi>r</m:mi>
-							<m:mo>⁢</m:mo>
+						<m:semantics>
 							<m:mrow>
-								<m:mo fence="true">{</m:mo>
 								<m:mfrac>
-									<m:mi>r</m:mi>
-									<m:mi>x</m:mi>
-								</m:mfrac>
-								<m:mo>-</m:mo>
-								<m:mn>1</m:mn>
-								<m:mo>+</m:mo>
-								<m:mfrac>
-									<m:msup>
-										<m:mi>m</m:mi>
-										<m:mo>′</m:mo>
-									</m:msup>
-									<m:mi>m</m:mi>
+									<m:mn>1</m:mn>
+									<m:mn>2</m:mn>
 								</m:mfrac>
 								<m:mo>⁢</m:mo>
 								<m:mo fence="true">(</m:mo>
-								<m:mfrac>
-									<m:mi>r</m:mi>
-									<m:mrow>
-										<m:mi>d</m:mi>
-										<m:mo>−</m:mo>
-										<m:mi>x</m:mi>
-									</m:mrow>
-								</m:mfrac>
+								<m:msup>
+									<m:mi>v</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
 								<m:mo>−</m:mo>
-								<m:mfrac>
-									<m:mi>r</m:mi>
-									<m:mrow>
-										<m:mi>d</m:mi>
-										<m:mo>−</m:mo>
-										<m:mi>r</m:mi>
-									</m:mrow>
-								</m:mfrac>
+								<m:msup>
+									<m:msub>
+										<m:mi>v</m:mi>
+										<m:mn>0</m:mn>
+									</m:msub>
+									<m:mn>2</m:mn>
+								</m:msup>
 								<m:mo fence="true">)</m:mo>
-								<m:mo fence="true">}</m:mo>
+								<m:mo>=</m:mo>
+								<m:mi>g</m:mi>
+								<m:mo>⁢</m:mo>
+								<m:mi>r</m:mi>
+								<m:mo>⁢</m:mo>
+								<m:mrow>
+									<m:mo fence="true">{</m:mo>
+									<m:mfrac>
+										<m:mi>r</m:mi>
+										<m:mi>x</m:mi>
+									</m:mfrac>
+									<m:mo>-</m:mo>
+									<m:mn>1</m:mn>
+									<m:mo>+</m:mo>
+									<m:mfrac>
+										<m:msup>
+											<m:mi>m</m:mi>
+											<m:mo>′</m:mo>
+										</m:msup>
+										<m:mi>m</m:mi>
+									</m:mfrac>
+									<m:mo>⁢</m:mo>
+									<m:mo fence="true">(</m:mo>
+									<m:mfrac>
+										<m:mi>r</m:mi>
+										<m:mrow>
+											<m:mi>d</m:mi>
+											<m:mo>−</m:mo>
+											<m:mi>x</m:mi>
+										</m:mrow>
+									</m:mfrac>
+									<m:mo>−</m:mo>
+									<m:mfrac>
+										<m:mi>r</m:mi>
+										<m:mrow>
+											<m:mi>d</m:mi>
+											<m:mo>−</m:mo>
+											<m:mi>r</m:mi>
+										</m:mrow>
+									</m:mfrac>
+									<m:mo fence="true">)</m:mo>
+									<m:mo fence="true">}</m:mo>
+								</m:mrow>
 							</m:mrow>
-						</m:mrow>
+							<m:annotation-xml encoding="Content-MathML">
+								<m:apply>
+									<m:eq/>
+									<m:apply>
+										<m:times/>
+										<m:apply>
+											<m:divide/>
+											<m:cn type="integer">1</m:cn>
+											<m:cn type="integer">2</m:cn>
+										</m:apply>
+										<m:apply>
+											<m:minus/>
+											<m:apply>
+												<m:power/>
+												<m:ci type="real">v</m:ci>
+												<m:cn type="integer">2</m:cn>
+											</m:apply>
+											<m:apply>
+												<m:power/>
+												<m:ci type="real">
+													<m:msub>
+														<m:mi>v</m:mi>
+														<m:mn>0</m:mn>
+													</m:msub>
+												</m:ci>
+												<m:cn type="integer">2</m:cn>
+											</m:apply>
+										</m:apply>
+									</m:apply>
+									<m:apply>
+										<m:times/>
+										<m:apply>
+											<m:times/>
+											<m:ci type="real">g</m:ci>
+											<m:ci type="real">r</m:ci>
+										</m:apply>
+										<m:apply>
+											<m:plus/>
+											<m:apply>
+												<m:minus/>
+												<m:apply>
+													<m:divide/>
+													<m:ci type="real">r</m:ci>
+													<m:ci type="real">x</m:ci>
+												</m:apply>
+												<m:cn type="integer">1</m:cn>
+											</m:apply>
+											<m:apply>
+												<m:times/>
+												<m:apply>
+													<m:divide/>
+													<m:ci type="real">
+														<m:msup>
+															<m:mi>m</m:mi>
+															<m:mo>′</m:mo>
+														</m:msup>
+													</m:ci>
+													<m:ci type="real">m</m:ci>
+												</m:apply>
+												<m:apply>
+													<m:minus/>
+													<m:apply>
+														<m:divide/>
+														<m:ci type="real">r</m:ci>
+														<m:apply>
+															<m:minus/>
+															<m:ci type="real">d</m:ci>
+															<m:ci type="real">x</m:ci>
+														</m:apply>
+													</m:apply>
+													<m:apply>
+														<m:divide/>
+														<m:ci type="real">r</m:ci>
+														<m:apply>
+															<m:minus/>
+															<m:ci type="real">d</m:ci>
+															<m:ci type="real">r</m:ci>
+														</m:apply>
+													</m:apply>
+												</m:apply>
+											</m:apply>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+							</m:annotation-xml>
+						</m:semantics>
 					</m:math>
 				</p>
 			</blockquote>
@@ -191,65 +278,143 @@
 			<blockquote>
 				<p>
 					<m:math alttext="v₀² = 2⁢g⁢r⁢{1 - 10⁢r/(9⁢d) - 1⁄81 (10⁢r/d - r/(d - r))}">
-						<m:mrow>
-							<m:msup>
-								<m:msub>
-									<m:mi>v</m:mi>
-									<m:mn>0</m:mn>
-								</m:msub>
-								<m:mn>2</m:mn>
-							</m:msup>
-							<m:mo>=</m:mo>
-							<m:mn>2</m:mn>
-							<m:mo>⁢</m:mo>
-							<m:mi>g</m:mi>
-							<m:mo>⁢</m:mo>
-							<m:mi>r</m:mi>
-							<m:mo>⁢</m:mo>
+						<m:semantics>
 							<m:mrow>
-								<m:mo fence="true">{</m:mo>
-								<m:mn>1</m:mn>
-								<m:mo>−</m:mo>
-								<m:mfrac>
-									<m:mrow>
-										<m:mn>10</m:mn>
-										<m:mo>⁢</m:mo>
-										<m:mi>r</m:mi>
-									</m:mrow>
-									<m:mrow>
-										<m:mn>9</m:mn>
-										<m:mo>⁢</m:mo>
-										<m:mi>d</m:mi>
-									</m:mrow>
-								</m:mfrac>
-								<m:mo>−</m:mo>
-								<m:mfrac>
-									<m:mi>1</m:mi>
-									<m:mi>81</m:mi>
-								</m:mfrac>
+								<m:msup>
+									<m:msub>
+										<m:mi>v</m:mi>
+										<m:mn>0</m:mn>
+									</m:msub>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mo>=</m:mo>
+								<m:mn>2</m:mn>
 								<m:mo>⁢</m:mo>
-								<m:mo fence="true">(</m:mo>
-								<m:mfrac>
-									<m:mrow>
-										<m:mn>10</m:mn>
-										<m:mo>⁢</m:mo>
-										<m:mi>r</m:mi>
-									</m:mrow>
-									<m:mi>d</m:mi>
-								</m:mfrac>
-								<m:mo>−</m:mo>
-								<m:mfrac>
-									<m:mi>r</m:mi>
-									<m:mrow>
+								<m:mi>g</m:mi>
+								<m:mo>⁢</m:mo>
+								<m:mi>r</m:mi>
+								<m:mo>⁢</m:mo>
+								<m:mrow>
+									<m:mo fence="true">{</m:mo>
+									<m:mn>1</m:mn>
+									<m:mo>−</m:mo>
+									<m:mfrac>
+										<m:mrow>
+											<m:mn>10</m:mn>
+											<m:mo>⁢</m:mo>
+											<m:mi>r</m:mi>
+										</m:mrow>
+										<m:mrow>
+											<m:mn>9</m:mn>
+											<m:mo>⁢</m:mo>
+											<m:mi>d</m:mi>
+										</m:mrow>
+									</m:mfrac>
+									<m:mo>−</m:mo>
+									<m:mfrac>
+										<m:mi>1</m:mi>
+										<m:mi>81</m:mi>
+									</m:mfrac>
+									<m:mo>⁢</m:mo>
+									<m:mo fence="true">(</m:mo>
+									<m:mfrac>
+										<m:mrow>
+											<m:mn>10</m:mn>
+											<m:mo>⁢</m:mo>
+											<m:mi>r</m:mi>
+										</m:mrow>
 										<m:mi>d</m:mi>
-										<m:mo>−</m:mo>
+									</m:mfrac>
+									<m:mo>−</m:mo>
+									<m:mfrac>
 										<m:mi>r</m:mi>
-									</m:mrow>
-								</m:mfrac>
-								<m:mo fence="true">)</m:mo>
-								<m:mo fence="true">}</m:mo>
+										<m:mrow>
+											<m:mi>d</m:mi>
+											<m:mo>−</m:mo>
+											<m:mi>r</m:mi>
+										</m:mrow>
+									</m:mfrac>
+									<m:mo fence="true">)</m:mo>
+									<m:mo fence="true">}</m:mo>
+								</m:mrow>
 							</m:mrow>
-						</m:mrow>
+							<m:annotation-xml encoding="Content-MathML">
+								<m:apply>
+									<m:eq/>
+									<m:apply>
+										<m:power/>
+										<m:ci type="real">
+											<m:msub>
+												<m:mi>v</m:mi>
+												<m:mn>0</m:mn>
+											</m:msub>
+										</m:ci>
+										<m:cn type="integer">2</m:cn>
+									</m:apply>
+									<m:apply>
+										<m:times/>
+										<m:apply>
+											<m:times/>
+											<m:cn type="integer">2</m:cn>
+											<m:apply>
+												<m:times/>
+												<m:ci type="real">g</m:ci>
+												<m:ci type="real">r</m:ci>
+											</m:apply>
+										</m:apply>
+										<m:apply>
+											<m:minus/>
+											<m:apply>
+												<m:minus/>
+												<m:cn type="integer">1</m:cn>
+												<m:apply>
+													<m:divide/>
+													<m:apply>
+														<m:times/>
+														<m:cn type="integer">10</m:cn>
+														<m:ci type="real">r</m:ci>
+													</m:apply>
+													<m:apply>
+														<m:times/>
+														<m:cn type="integer">9</m:cn>
+														<m:ci type="real">d</m:ci>
+													</m:apply>
+												</m:apply>
+											</m:apply>
+											<m:apply>
+												<m:times/>
+												<m:apply>
+													<m:divide/>
+													<m:cn type="integer">1</m:cn>
+													<m:cn type="integer">81</m:cn>
+												</m:apply>
+												<m:apply>
+													<m:minus/>
+													<m:apply>
+														<m:divide/>
+														<m:apply>
+															<m:times/>
+															<m:cn type="integer">10</m:cn>
+															<m:ci type="real">r</m:ci>
+														</m:apply>
+														<m:ci type="real">d</m:ci>
+													</m:apply>
+													<m:apply>
+														<m:divide/>
+														<m:ci type="real">r</m:ci>
+														<m:apply>
+															<m:minus/>
+															<m:ci type="real">d</m:ci>
+															<m:ci type="real">r</m:ci>
+														</m:apply>
+													</m:apply>
+												</m:apply>
+											</m:apply>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+							</m:annotation-xml>
+						</m:semantics>
 					</m:math>
 				</p>
 			</blockquote>
