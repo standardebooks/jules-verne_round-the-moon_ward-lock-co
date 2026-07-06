@@ -55,7 +55,7 @@
 		<meta property="schema:wordCount">55186</meta>
 		<meta property="schema:educationalLevel">63.59</meta>
 		<link href="https://en.wikipedia.org/wiki/Round_the_moon" rel="schema:sameAs"/>
-		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/jules-verne_round-the-moon_ward-lock-co" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Jules Verne</dc:creator>
