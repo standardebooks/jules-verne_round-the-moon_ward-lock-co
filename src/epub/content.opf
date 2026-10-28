@@ -79,6 +79,7 @@
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Gregory Margo</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Margo, Gregory</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Geneviève Ségol</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Ségol, Geneviève</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
